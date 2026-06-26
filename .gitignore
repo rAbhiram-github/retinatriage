@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Model weights & data
+backend/weights/*.pth
+data/
+*.zip
+kaggle.json
+
+# Node / Vite
+node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
+*.log
